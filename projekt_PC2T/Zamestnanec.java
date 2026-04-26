@@ -44,7 +44,11 @@ public abstract class Zamestnanec {
             System.out.println(s);
         }
     }
-
+    
+    public int pocetSpolupracovniku() {
+        return spolupracovnici.size();
+    }
+    
     @Override
     public String toString() {
         return "ID: " + id +
